@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(../font/OpenSans_Condensed-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../font/OpenSans_Condensed-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../font/OpenSans_Condensed-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../font/OpenSans_Condensed-Bold.ttf);
+  font-weight: 700;
+}
+/* 
+font-weight: Thay doi do day van ban
+font-style: thay doi do nghieng cua van ban
+ */
+body {
+  font-family: "Open Sans", sans-serif;
+  /* font-style: italic; */
+  font-weight: 700;
+  font-size: 36px;
+  /* text-indent: 40px; */
+}
+.content a {
+  /* text-decoration: underline overline line-through; */
+  /* text-transform: capitalize; */
+  /* letter-spacing: 3px; */
+  /* word-spacing: 100px; */
+}
+.box {
+    word-wrap: break-word;
+}

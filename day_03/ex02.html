@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="name">Ho ten</label>
+        <input
+          type="text"
+          name="name"
+          placeholder="Ho va ten"
+          id="name"
+          required
+        />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          id="email"
+          required
+        />
+      </div>
+      <div>
+        <label for="Password">Mat khau</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Mat Khau"
+          id="password"
+          required
+        />
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input
+          type="number"
+          name="age"
+          placeholder="Tuoi"
+          id="age"
+          required
+          step="0.1"
+          min="18"
+          max="50"
+        />
+      </div>
+      <div>
+        <label for="avatar">Avatar</label>
+        <input type="file" name="avatar" id="avatar" required />
+      </div>
+      <div>
+        <label>Ban biet den f8 qua nguon nao?</label>
+        <label> <input type="checkbox" name="source" value="1" /> Nam </label>
+        <label>
+          <input type="checkbox" name="source" value="2" checked /> Nu
+        </label>
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your message"
+        >
+Hello</textarea
+        >
+      </div>
+      <div>
+        <label for="cities">Thanh Pho</label>
+        <select name="cities" id="cities">
+          <option value="" hidden>Chon Tinh/Thanh Pho</option>
+          <optgroup label="Mien Bac">
+            <option value="1">Ha Noi</option>
+            <option value="3">Thai Binh</option>
+            <option value="4">Bac Ninh</option>
+          </optgroup>
+          <optgroup label="Mien Nam">
+            <option value="2">Tp. Ho Chi Minh</option>
+          </optgroup>
+          <optgroup label="Mien Trung">
+            <option value="5">Nghe An</option>
+          </optgroup>
+        </select>
+      </div>
+      <hr />
+      <button type="submit">Dang ky</button>
+      <button type="button">Button</button>
+      <button type="reset">Nhap lai</button>
+      <input type="range" name="volume" min="0" max="100">
+    </form>
+  </body>
+</html>

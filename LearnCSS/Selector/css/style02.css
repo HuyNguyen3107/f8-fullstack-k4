@@ -1,0 +1,7 @@
+.todos input:checked ~ span, .todos input:checked ~ span {
+    color: red;
+    text-decoration: coral;
+}
+.todos input:hover ~ span {
+    color: yellow;
+}

@@ -1,0 +1,13 @@
+/* .website a[target] {
+    color: red;
+} */
+
+/* .website a[href = "https://vnexpress.net/"] {
+    color: red;
+} */
+/* .website a[href *="fullstack.edu.vn"] {
+    color: chocolate;
+} */
+.images a[href $=".jpg"] {
+    color: chocolate;
+}

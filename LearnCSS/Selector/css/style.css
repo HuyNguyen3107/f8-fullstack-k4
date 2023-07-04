@@ -1,0 +1,22 @@
+/* * {
+    color: brown;
+} */
+/* #title {
+    color: blue;
+}
+.sub-title {
+    color: yellow;
+}
+p {
+    color: violet;
+} */
+
+/* .box > h2 {
+    color: green;
+} */
+h1.name#first {
+    color: blueviolet;
+}
+h2.name#last {
+    color: yellow;
+}

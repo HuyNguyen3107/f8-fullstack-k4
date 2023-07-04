@@ -1,0 +1,12 @@
+/* .products .item:first-child {
+    color: red;
+} */
+.products .item:first-of-type {
+    color: red;
+}
+/* .products .item:last-child {
+    color: green;
+} */
+.products .item:last-of-type{
+    color: green;
+}
