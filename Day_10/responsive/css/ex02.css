@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+ul {
+    list-style: none;
+}
+.sandbox {
+    margin-top: 18px;
+}
+.sandbox-content {
+    width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+.sandbox-heading {
+    margin-right: auto;
+}
+.navigation ul {
+    display: flex;
+}
+.navigation ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 16px;
+}
+.sandbox-content button {
+    margin-left: 16px;
+    border: none;
+    outline: none;
+    padding: 20px 28px;
+    border-radius: 99px;
+    line-height: 0;
+    color: #fff;
+    background-color: blue;
+}
+.fa-bars {
+    display: none;
+}
+@media screen and (max-width: 991px) {
+    .navigation {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+        margin-left: 8px;
+        font-size: 24px;
+    }
+    .sandbox-content {
+        width: auto;
+        margin: 0 50px;
+    }
+}
+@media screen and (max-width: 767px) {
+    button {
+        display: none;
+    }
+    .overlay {
+        position: fixed;
+        inset: 0;
+        background-color: #00000038;
+        opacity: 0;
+        visibility: hidden;
+        transition-property: opacity, visibility;
+        transition-duration: .2s;
+        transition-timing-function: linear;
+    }
+    .navigation {
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 30%;
+        background-color: #000;
+        transform: translateX(-100%);
+        transition-property: transform;
+        transition-duration: .2s;
+        transition-timing-function: linear;
+    }
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .navigation ul li a {
+        color: #fff;
+    }
+    input:checked ~ .overlay {
+        opacity: 1;
+        visibility: visible;
+
+    }
+    input:checked ~ .navigation {
+        transform: translateX(0);
+    }
+}

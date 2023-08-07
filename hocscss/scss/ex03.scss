@@ -1,0 +1,19 @@
+// .box {
+//     padding: 30px 0;
+//     border: 1px solid red;
+// }
+%section-base {
+    padding: 30px 0;
+    border: 1px solid red;
+}
+.post {
+    background-color: green;
+    @extend %section-base;
+}
+.product {
+    border-color: blue;
+    @extend %section-base;
+}
+.services {
+    @extend %section-base;
+}

@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 300px;
+  height: 200px;
+  background-color: green;
+  margin: 40px auto;
+  color: #fff;
+  box-shadow: 15px 15px #ccc, 25px 25px red, 35px 35px blue;
+  border-radius: 4px;
+}
+.box h2 {
+    text-shadow: 4px 4px 4px red;
+}

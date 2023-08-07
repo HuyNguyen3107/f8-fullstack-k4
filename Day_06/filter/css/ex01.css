@@ -1,0 +1,11 @@
+.box h1 {
+    color: green;
+}
+.box:hover img {
+    /* filter: opacity(0.7); */
+    /* filter: grayscale(1); */
+    filter: blur(2px);
+}
+.map {
+    filter: grayscale(1);
+}

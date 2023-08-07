@@ -1,0 +1,13 @@
+.container {
+  text-align: center;
+}
+.container div {
+  text-align: left;
+  display: inline-block;
+}
+.container div {
+  width: 300px;
+  border: 1px solid red;
+}
+
+/*# sourceMappingURL=ex05.css.map */

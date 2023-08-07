@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 300px;
+  border: 2px solid red;
+  margin: 30px auto;
+}
+.box ul {
+  /* list-style-position: inside;
+    list-style-type: none; */
+  list-style: none;
+}
+.box ul li::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url(https://cdn1.iconfinder.com/data/icons/unicons-line-vol-1/24/angle-right-b-64.png)
+    no-repeat left center/ 24px;
+  vertical-align: middle;
+}

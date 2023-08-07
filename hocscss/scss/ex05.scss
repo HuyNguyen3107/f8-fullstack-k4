@@ -1,0 +1,30 @@
+@mixin center($type) {
+    @if ($type == flex) {
+        display: flex;
+        justify-content: center;
+    } @else if ($type == margin) {
+        div {
+            margin: 0 auto;
+        }
+    } @else if ($type == position) {
+        position: relative;
+        div {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%)
+        }
+    } @else if ($type == text) {
+        text-align: center;
+        div {
+            text-align: left;
+            display: inline-block;
+        }
+    }
+}
+.container {
+    @include center(text);
+    div {
+        width: 300px;
+        border: 1px solid red;
+    }
+}

@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+:root {
+    --primary-color: green;
+    --secondary-color: red;
+    --text-color: blue;
+    --font-family: "Roboto", sans-serif;
+    --font-size: 24px;
+}
+.box {
+    width: 500px;
+    margin: 30px auto;
+    color: var(--text-color);
+    font-size: var(--font-size);
+    border: 4px solid var(--secondary-color);
+    --font-style: italic;
+}
+.box p {
+    font-style: var(--font-style);
+    font-family: var(--font-family);
+    --primary-color: yellow;
+    color: var(--primary-color);
+}
+.box:hover {
+    --secondary-color: blue;
+}
+.box ~ p {
+    color: var(--primary-color);
+}

@@ -1,0 +1,10 @@
+.box {
+    width: 0px;
+    height: 0px;
+    /* border-top-width: 50px; */
+    border-bottom-width: 50px;
+    border-left-width: 50px;
+    border-right-width: 50px;
+    border-style: solid;
+    border-color: transparent transparent blue transparent;
+}

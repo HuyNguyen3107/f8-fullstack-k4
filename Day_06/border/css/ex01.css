@@ -1,0 +1,23 @@
+.box {
+    font-size: 24px;
+    /* font-size: 24px;
+    border-width: 8px;
+    border-color: red;
+    border-style: dashed; */
+    /* border: 4px dotted red; */
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+
+    /* border-left-color: red;
+    border-right-color: blue;
+    border-top-color: green;
+    border-bottom-color: yellow; */
+    border-color: green red;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+}

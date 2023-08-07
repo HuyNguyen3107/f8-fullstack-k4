@@ -1,0 +1,11 @@
+/* .images {
+    vertical-align: bottom; 
+    line-height: 0;
+} */
+.product img {
+    display: block;
+}
+.product h3 {
+    background-color: aqua;
+    margin: 0;
+}

@@ -1,0 +1,30 @@
+/* .box {
+    width: 300px;
+    border: 2px solid red;
+    margin: 30px auto;
+    padding: 20px;
+    box-sizing: border-box;
+} */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.products {
+    width: 500px;
+    margin: 30px auto;
+    border: 2px solid red;
+}
+.products::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.item {
+    float: left;
+    width: 33.333%;
+    background-color: green;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 30px;
+}

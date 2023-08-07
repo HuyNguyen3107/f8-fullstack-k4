@@ -1,0 +1,21 @@
+.products {
+  background: green;
+  padding: 30px 0;
+  border: 1px solid #ccc;
+  color: red;
+  color: green;
+}
+.products .container {
+  width: 1200px;
+  max-width: 0 auto;
+}
+.products .col {
+  width: 50px;
+}
+
+.post {
+  width: 1200px;
+  margin: 50px auto;
+}
+
+/*# sourceMappingURL=ex04.css.map */

@@ -1,0 +1,30 @@
+$number: 4;
+@if ($number > 5) {
+    .box-2 {
+        padding: 20px 0;
+    }
+} @else {
+    .box-4 {
+        padding: 40xp 0;
+    }
+}
+$width: 10;
+.w-#{$width} {
+    @if ($width > 0 and $width <= 100) {
+        width: #{$width + 0%};
+    } @else if ($width <= 100) {
+        width: 0;
+    } @else {
+        width: 100%;
+    }
+}
+$prefix: col;
+$breakpoint: lg;
+$number: 5;
+$selector: #{"." + $prefix + "-" + $number};
+@if ($breakpoint != "") {
+    $selector: #{"." + $prefix + "-" + $breakpoint + "-" + $number};
+}
+#{$selector} {
+    width: 50%;
+}

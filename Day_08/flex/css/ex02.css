@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100px;
+    height: 40px;
+}
+.logo {
+    border: 1px solid red;
+    width: 1000px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px 10px;
+    justify-content: center;
+}
+
+.items{
+    width:  calc(100% / 5 - 10px);
+}
+
+
