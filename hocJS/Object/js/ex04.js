@@ -36,13 +36,14 @@ var User = function () {
 };
 
 var Auth = function () {
-    var user = new User();
+    // var user = new User();
     this.getInfo = function () {
         return `
             Name: ${user.name}
             Email: ${user.email}
         `;
     };
+
 };
 
 // var auth = new Auth();
