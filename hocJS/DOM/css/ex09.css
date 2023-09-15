@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap: 5px;
+}
+/* .menu > li > a > i {
+    margin-right: 20px;
+} */
+.menu {
+    background-color: #000;
+    width: 100px;
+}
+.menu-children {
+    display: none;
+}
+.menu > li:hover > a {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.show {
+    display: block;
+}
+.white-color {
+    color: #fff;
+}
+.rotate {
+    transform: rotate(180deg);
+}
+
