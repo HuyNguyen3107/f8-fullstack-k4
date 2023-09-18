@@ -24,6 +24,7 @@ menuList.forEach(function (item) {
     temp.innerHTML = `<i class="fa-solid fa-caret-down white-color"></i>`;
     item.children[0].appendChild(temp);
     item.addEventListener("click", function () {
+      console.log(menuList[2].children[1].clientHeight);
       temp.classList.toggle("rotate");
       item.children[1].classList.toggle("show");
       menuList.forEach(function (menuItem) {
@@ -40,14 +41,14 @@ menuList.forEach(function (item) {
   }
 });
 
-var active = document.querySelector('.lists .active');
-var next = active.nextElementSibling;
-var last = document.querySelector('.last');
-var prev = last.previousElementSibling;
-var lists = document.querySelector('.lists');
-var first = lists.firstElementChild;
-var last2 = lists.lastElementChild;
-console.log(prev);
-console.log(next);
-console.log(first);
-console.log(last2);
+// var active = document.querySelector('.lists .active');
+// var next = active.nextElementSibling;
+// var last = document.querySelector('.last');
+// var prev = last.previousElementSibling;
+// var lists = document.querySelector('.lists');
+// var first = lists.firstElementChild;
+// var last2 = lists.lastElementChild;
+// console.log(prev);
+// console.log(next);
+// console.log(first);
+// console.log(last2);

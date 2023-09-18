@@ -19,6 +19,7 @@ a {
 }
 .menu-children {
     display: none;
+    padding: 10px;
 }
 .menu > li:hover > a {
     opacity: 0.5;
