@@ -14,12 +14,12 @@ var num = document.createElement('span');
 num.innerText = '0';
 h2.append(num);
 
-addBtn.addEventListener('click', function() {
-    num.innerText++;
-})
-subBtn.addEventListener('click', function() {
-    num.innerText--;
-})
+// addBtn.addEventListener('click', function() {
+//     num.innerText++;
+// })
+// subBtn.addEventListener('click', function() {
+//     num.innerText--;
+// })
 
 var check = false;
 
@@ -59,3 +59,6 @@ subBtn.addEventListener('mouseup', function() {
     check = false;
     decrease();
 })
+
+var textNode = document.createTextNode(0);
+h2.append(textNode)
