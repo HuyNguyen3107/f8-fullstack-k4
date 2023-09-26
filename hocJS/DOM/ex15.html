@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 2000px;
+            /* width: 2000px; */
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .top {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            background-color: red;
+            color: #fff;
+            padding: 10px;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            display: none;
+            cursor: pointer;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        header {
+            background-color: #ddd;
+            text-align: center;
+        }
+
+        header h1 {
+            padding: 15px 0;
+        }
+
+        .menu {
+            background-color: green;
+            padding: 10px 0;
+            color: #fff;
+        }
+
+        .fixed {
+            position: fixed;
+            inset: 0 0 auto 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="title">HEADER</h1>
+        <nav class="menu">
+            Menu
+        </nav>
+    </header>
+    <main class="main">
+        <h2>Scroll Event</h2>
+        <button class="goto">Goto</button>
+        <button class="top">Top</button>
+    </main>
+    <script src="./js/ex15.js"></script>
+</body>
+
+</html>
