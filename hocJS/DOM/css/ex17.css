@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+  }
+  
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    background: gray;
+    position: relative;
+    cursor: pointer;
+    border-radius: 99px;
+  }
+  
+  .progress-bar .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: red;
+    border-radius: 99px;
+  }
+  
+  .progress-bar .progress span {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    right: 0;
+    background: blueviolet;
+    translate: 50% -50%;
+    border-radius: 50%;
+  }
+  
+  .player {
+    margin: 15px 0;
+  }
+  
+  .player .play-btn {
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  .player .play-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .player .play-inner .progress-bar {
+    width: 100%;
+  }
+
+  .karaoke {
+    height: 80vh;
+    background-color: blueviolet;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.karaoke-content .word {
+    position: relative;
+}
+.karaoke-content .word span {
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    width: 0;
+    color: yellow;
+}
